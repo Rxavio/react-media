@@ -44,7 +44,7 @@ const RecordView = () => {
     startRecording,
     stopRecording,
     mediaBlobUrl,
-  } = useReactMediaRecorder({ video: true });
+  } = useReactMediaRecorder({ audio: true });
 
   return (
     <div>
