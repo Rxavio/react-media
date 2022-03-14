@@ -3,7 +3,7 @@ import { ReactMediaRecorder } from "react-media-recorder";
 const App = () => (
   <div>
     <ReactMediaRecorder
-      video
+      audio
       render={({ status, startRecording, stopRecording, mediaBlobUrl }) => (
         <div>
           <p>{status}</p>
