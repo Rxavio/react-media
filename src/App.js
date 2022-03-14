@@ -34,8 +34,6 @@
 //      )}
 // export default App
 
-
-
 import { useReactMediaRecorder } from "react-media-recorder";
 
 const RecordView = () => {
@@ -44,7 +42,7 @@ const RecordView = () => {
     startRecording,
     stopRecording,
     mediaBlobUrl,
-  } = useReactMediaRecorder({ audio: true });
+  } = useReactMediaRecorder({ screen: true });
 
   return (
     <div>
